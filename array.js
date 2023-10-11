@@ -43,3 +43,80 @@ const filteredArray = originalArray.filter((value) => value); // Removes falsy v
 // tomorrow 11th oct :firstly do quick sort and then prime number question and 
 // then do basic and intermediate question on array, and if time then do basic and 
 // intermediate question on number
+
+
+// Question : how to sort an array without apply sort method?
+
+// Answer: Quick Sort
+
+// not fully understand 
+
+let sortArr = [-8,-3,2,8,8,3,2]
+
+let sortArrResult = ()=>{
+ let pivot = sortArr[sortArr.length-1]
+ let left = []
+ let right = []
+ for(let i=0;i<sortArr.length;i++){
+  if(sortArr[i]<pivot){
+  left.push(sortArr[i])
+  }else{
+  right.push(sortArr[i])
+  }
+ }
+ return [...left,pivot,...right]
+}
+
+console.log(sortArrResult())
+
+
+// Question: check if a number is prime or not ?
+
+const checkNum = (n)=>{
+	if(n<2){
+  return false
+  }
+  for(let i=2; i<n ;i++){
+  	if(n%i === 0){
+    	return false
+    }
+  }
+  return true
+}
+
+console.log(checkNum(8))
+
+// Question: find the prime number between 1 and 100
+
+const primeNum = (n) => {
+  let result = [];
+   
+   
+   for(let i=2;i<n;i++){
+   	let isPrime = true
+    
+    for(let j=2;j<i;j++){
+    	if(i%j === 0){
+      isPrime = false 
+      break
+      }
+      
+      }
+      if(isPrime){
+      result.push(i)
+    }
+   }
+  
+  return result;
+}
+
+console.log(primeNum(100));
+
+// in this example i am checking that a number n is not 
+// divisible between 2 to n-1 then that is a prime number
+
+// Tomorrow  12th oct first read about recursion and then ask 
+// for karam about the dsa questions that may be asked
+// and solve basic questions of array from gfg 
+// also learn about basic questions of mern stack except react
+// good luckluck😊😍
