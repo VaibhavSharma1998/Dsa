@@ -120,3 +120,61 @@ console.log(primeNum(100));
 // and solve basic questions of array from gfg 
 // also learn about basic questions of mern stack except react
 // good luckluck😊😍
+
+
+// 13th october -dsa question
+
+// print true if the array has dublicate value 
+
+let isDublicate = [1,2,3]
+
+// method 1 - by checking length
+let resultIsDublicate1 = ()=>{
+for(let i=0;i<isDublicate.length;i++){
+  for(let j=i+1; j<isDublicate.length;j++){
+     if(isDublicate[i] ===isDublicate[j]){
+      return true
+    }
+  }
+}
+return false
+}
+ 
+// method 1 - by nested loop
+let resultIsDublicate = ()=>{
+let length1 = isDublicate.length
+let  onlyDublicate = [...new Set(isDublicate)].length
+if(length1 !== onlyDublicate){
+return true
+}else{
+return false
+}
+	
+}
+console.log(resultIsDublicate())
+
+
+// Question:find the missing number ihe array [0,1,2,3,4,6]
+
+let missingArr = [0,1,2,3,4,6]
+
+let missingNum = ()=>{
+let length = missingArr.length
+// This method works if the array has 0 else it fails
+let expectedSum =((length)*(length+1))/2
+
+
+
+// This method works everywhere except when the array has 0
+
+let expectedSum1 =((length+1)*(length+2))/2
+
+let realSumm = missingArr.reduce((acc,value) => acc + value)
+
+/* console.log(expectedSum,realSumm) */
+let result = expectedSum-realSumm
+return result
+}
+
+console.log(missingNum())
+
