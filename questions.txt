@@ -1,0 +1,31 @@
+ Certainly! Here are some common data structure and algorithm (DSA) array-related questions that are often asked in interviews:
+
+Find the Missing Number: Given an array containing n distinct numbers taken from 0, 1, 2, ..., n, find the missing number.
+
+Two Sum: Given an array of integers, return indices of the two numbers such that they add up to a specific target.
+
+Maximum Subarray: Find the contiguous subarray with the largest sum.
+
+Rotate Array: Rotate an array to the right by k steps.
+
+Intersection of Two Arrays: Given two arrays, write a function to compute their intersection.
+
+Merge Two Sorted Arrays: Merge two sorted arrays into a single sorted array.
+
+Remove Duplicates from Sorted Array: Remove duplicates in-place from a sorted array and return the new length.
+
+Find Peak Element: Find a peak element in an array.
+
+Move Zeroes: Given an array, move all 0's to the end while maintaining the relative order of the other elements.
+
+Subarray with Given Sum: Find a subarray with a given sum in an array.
+
+Majority Element: Find the majority element (element that appears more than n/2 times) in an array.
+
+Product of Array Except Self: Given an array, return an array where each element is the product of all elements except itself.
+
+Container with Most Water: Given n non-negative integers representing vertical lines on a plane, find two lines that together with the x-axis forms a container that contains the most water.
+
+Trapping Rain Water: Given n non-negative integers representing an elevation map where the width of each bar is 1, compute how much water it can trap after raining.
+
+These are just a few common DSA array questions. Interviewers may also ask variations or more complex problems based on arrays to assess a candidate's problem-solving and algorithmic skills. It's essential to practice and understand the principles of array manipulation and searching to excel in coding interviews.

@@ -178,3 +178,16 @@ return result
 
 console.log(missingNum())
 
+// Tomorrow 18th oct, 2023 
+// in moring from study from 5:15 to 7:15 node interview questions
+//  then 7:15 to 8:00 - running
+// 8 to 9 - ready
+//  9 to 2 - apply on linkedin and looking for company that are opened within 6 months 
+//  2 to 3 - rest
+//  3 to 5 - dsa
+//  5 to 8 - library dsa and interview 
+//  9 to 11 - coading
+// this  time our priority is to learn interview questions and dsa 
+// and then start making portfolio
+// best of luck tomorrow complete all array questions.
+ 
