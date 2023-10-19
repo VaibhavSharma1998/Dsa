@@ -191,3 +191,32 @@ console.log(missingNum())
 // and then start making portfolio
 // best of luck tomorrow complete all array questions.
  
+
+// 19th oct 2023
+
+
+// Question 2: Two Sum: Given an array of integers, return indices of
+//  the two numbers such that they add up to a specific target.
+
+// Example:
+// Let's say you have an array [2, 7, 11, 15] and a target value of 9. 
+// The task is to find two indices in the array such that the elements 
+// at those indices, when added together, equal the target value. 
+// In this case, the pair of indices that satisfy the condition is [0, 1] because 2 + 7 = 9.
+
+// Solution:
+
+let twoSumArr = [2, 7, 11, 15]
+
+let resultTwoSumArr = ()=>{
+for(let i= 0;i<twoSumArr.length; i++){
+	for(let j=0 ;j<twoSumArr.length; j++){
+  if(twoSumArr[i]+twoSumArr[j] === 9){
+  	return([twoSumArr.indexOf(twoSumArr[i]) ,twoSumArr.indexOf(twoSumArr[j])])
+  }
+  
+  }
+}
+}
+
+console.log(resultTwoSumArr())
