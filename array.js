@@ -90,12 +90,12 @@ console.log(checkNum(8))
 
 const primeNum = (n) => {
   let result = [];
-   
+
    
    for(let i=2;i<n;i++){
    	let isPrime = true
     
-    for(let j=2;j<i;j++){
+    for(let j=2; j<i; j++){
     	if(i%j === 0){
       isPrime = false 
       break
@@ -140,7 +140,7 @@ for(let i=0;i<isDublicate.length;i++){
 return false
 }
  
-// method 1 - by nested loop
+// method 2 - by nested loop
 let resultIsDublicate = ()=>{
 let length1 = isDublicate.length
 let  onlyDublicate = [...new Set(isDublicate)].length
@@ -218,5 +218,23 @@ for(let i= 0;i<twoSumArr.length; i++){
   }
 }
 }
-
 console.log(resultTwoSumArr())
+
+// solution 2
+
+let resultTwoSumArr2 = ()=>{
+  let indexData = []
+  for(let i=0 ;i<resultTwoSumArr2.length; i++){
+    for(let j=0;j<resultTwoSumArr2.length; j++){
+      if(resultTwoSumArr2[i]+resultTwoSumArr2[j] === 9){
+        indexData.push(i)
+      
+      }
+      }
+      
+     }
+     return indexData
+    }
+  
+
+    console.log(resultTwoSumArr2())
