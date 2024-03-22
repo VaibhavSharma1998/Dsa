@@ -91,7 +91,6 @@ console.log(checkNum(8))
 const primeNum = (n) => {
   let result = [];
 
-   
    for(let i=2;i<n;i++){
    	let isPrime = true
     
